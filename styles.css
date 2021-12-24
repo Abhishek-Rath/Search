@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-right {
+    float: right;
+    margin: 7px;
+}
+
+.google-logo {
+    text-align: center; 
+    left: 50%; 
+    top: 30%; 
+    position: absolute; 
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.google-search {
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 41%;
+    margin-top: -40px;
+    margin-left: -100px;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.search-box {
+    background-color: #ffffff;
+    color: gray;
+    border-radius: 40px;
+    width: 450px;
+    border: 0.5px solid gray;
+    padding: 10px;
+    outline: none;
+}
